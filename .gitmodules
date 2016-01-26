@@ -1,0 +1,3 @@
+[submodule "themes/hugo-flatly-dark-theme"]
+	path = themes/hugo-flatly-dark-theme
+	url = https://github.com/calben/hugo-flatly-dark-theme
