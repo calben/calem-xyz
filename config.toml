@@ -1,0 +1,37 @@
+baseurl = "http://calem.xyz/"
+languageCode = "en-us"
+title = "calem bendell"
+theme = "hugo-flatly-dark-theme"
+
+[params]
+	name = "calem bendell"
+	description = "portfolio and blog"
+	favicon = "favicon.ico"
+
+	[params.navigation]
+		brand = "CALEM BENDELL"
+
+		[params.navigation.links]
+			about     = "SUMMARY"
+			blog	=		"LOGS"
+			portfolio  = "PORTFOLIO"
+			contact   = "CONTACT"
+
+
+	[params.hero]
+		slogan     = "WELCOME"
+		subtitle   = "my calendar, portfolio, and contact information are here, as well as a link to my blog.  if you just want some quick info about me and my contact info, there's also a summary just below here."
+
+	[params.about]
+		headline    = "THE QUICK SUMMARY"
+		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+
+	[params.portfolio]
+		headline = "PAST PROJECTS"
+		buttonText  = "GO TO FULL RESUME"
+
+	[params.contact]
+		headline = "CONTACT ME"
+		description = "care to chat?  my number and email below.  sorry that they're slightly obfuscated- it's an easy way to throw off crawlers that otherwise would spam me."
+		phone = "438 + 881 + 9189"
+		email = "calem.j.bendell @ gmail com"
